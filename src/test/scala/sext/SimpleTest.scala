@@ -7,8 +7,12 @@ import org.scalatest.junit.JUnitRunner
 import collection.immutable.Queue
 
 @RunWith(classOf[JUnitRunner])
-class OrderedMapTest extends FunSuite{
-  test("preserves order of creation") {
+class SimpleTest extends FunSuite{
+  test("1 is equal to 1") {
     assert(1 == 1)
+  }
+
+  test("failing test") {
+    assert(1 == 2)
   }
 }
